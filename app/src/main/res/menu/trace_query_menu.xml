@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:daohang="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/query_setting"
+        android:title="查询条件设置"
+        daohang:showAsAction="ifRoom" />
+</menu>

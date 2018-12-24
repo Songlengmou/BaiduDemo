@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.demo.baidu.activity.TraceMainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_trace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="轨迹时时追踪"
+            android:textSize="@dimen/activity_title_size"
+            android:background="@drawable/btn_bg"
+            android:textColor="@drawable/btn_text_bg"/>
+
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="历史轨迹查询"
+            android:textSize="@dimen/activity_title_size"
+            android:background="@drawable/btn_bg"
+            android:textColor="@drawable/btn_text_bg"/>
+
+    </LinearLayout>
+</RelativeLayout>
